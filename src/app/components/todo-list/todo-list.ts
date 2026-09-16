@@ -1,9 +1,10 @@
-import { Component } from '@angular/core';
+import { FormsModule } from '@angular/core';
 
 @Component({
-  imports: [],
+  imports: [FormsModule],
+  standalone:true,
   selector: 'app-todo-list',
   styleUrl: './todo-list.css',
   templateUrl: './todo-list.html',
 })
-export class TodoList {}
+export class TodoListComponent {}
